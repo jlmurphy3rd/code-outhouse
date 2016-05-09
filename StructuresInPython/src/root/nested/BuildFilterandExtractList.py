@@ -15,6 +15,8 @@ datalist = list()
 for line in fhand:
     if not line.startswith('From:') : continue
     datalist = line.rstrip().split()
+    # Added a safety check
+    if datalist() : continue
     address = datalist[1]
     print address
     count = count + 1

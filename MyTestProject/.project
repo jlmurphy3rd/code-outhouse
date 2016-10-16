@@ -3,6 +3,9 @@
 	<name>MyTestProject</name>
 	<comment></comment>
 	<projects>
+		<project>Python4everyone</project>
+		<project>PythonIngest</project>
+		<project>StructuresInPython</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
